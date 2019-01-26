@@ -9,8 +9,6 @@ branches:
       - Max
       - Daniel
       - Lukas
-      - Jonas
-      - Julian
     mails: # optional
       - example.mail@gmail.com
       - mail.example@protonmail.com
@@ -21,3 +19,4 @@ branches:
     dependsOn: # optional, format: <projectID>:<branchName>
       - 2:master
       - 5:master
+      - 7:testbranch
