@@ -21,7 +21,7 @@ branches:
       - 5:master
       - 7:testbranch
   - name: testing
-  - name: t2
+-jh:lk- name: t2
     mails:
       - example.mail@gmail.com
       - mail.example@protonmail.com
