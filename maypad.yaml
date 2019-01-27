@@ -21,7 +21,9 @@ branches:
       - 5:master
       - 7:testbranch
   - name: testing
-    description: Testing Branch
-    dependsOn: # optional, format: <projectID>:<branchName>
-      - 2:master
-      - 5:master
+  - name: t2
+      mails: # optional
+      - example.mail@gmail.com
+      - mail.example@protonmail.com
+      build: http://localhost:8080
+  
