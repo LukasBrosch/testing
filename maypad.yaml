@@ -22,7 +22,7 @@ branches:
       - 7:testbranch
   - name: testing
   - name: t2
-    mails:
+    mailshgj:
       - example.mail@gmail.com
       - mail.example@protonmail.com
     build: http://localhost:8080
