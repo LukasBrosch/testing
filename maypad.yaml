@@ -20,3 +20,8 @@ branches:
       - 2:master
       - 5:master
       - 7:testbranch
+  - name: testing
+    description: Testing Branch
+    dependsOn: # optional, format: <projectID>:<branchName>
+      - 2:master
+      - 5:master
