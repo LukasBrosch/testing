@@ -21,9 +21,11 @@ branches:
       - 5:master
       - 7:testbranch
   - name: testing
-  - name: t23
+  - name: t2
     mails:
       - example.mail@gmail.com
       - mail.example@protonmail.com
     build: http://localhost:8080
+    dependsOn:
+      - 2:master
   
