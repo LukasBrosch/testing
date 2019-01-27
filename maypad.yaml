@@ -12,7 +12,7 @@ branches:
     mails: # optional
       - example.mail@gmail.com
       - mail.example@protonmail.com
-    build: https://greatBuild.com/12345abc # optional
+    build: http://localhost:8080
     deployment: # optional
       deploymentName: Great-Deployment
       url: https://greatDeployment.com/54321abcd
