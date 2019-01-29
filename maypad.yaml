@@ -14,8 +14,9 @@ branches:
       - mail.example@protonmail.com
     build: http://localhost:8080
     deployment: # optional
-      deploymentName: Great-Deployment
-      url: https://greatDeployment.com/54321abcd
+      type: webhook
+      name: Great-Deployment
+      arguments: https://demo.maypad.de/api/projects/1/branches/master/builds/success
     dependsOn: # optional, format: <projectID>:<branchName>
       - 2:master
       - 5:master
