@@ -12,7 +12,15 @@ branches:
     mails: # optional
       - example.mail@gmail.com
       - mail.example@protonmail.com
-    build: http://localhost:8080
+    build: 
+      type: webhook
+      method: POST
+      url: http://localhost:8080
+      headers:
+        - key: key1
+          values:
+            - value1
+            - value 2
     deployment: # optional
       type: webhook
       name: Great-Deployment
