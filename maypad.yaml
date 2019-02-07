@@ -30,9 +30,9 @@ branches:
       - example.mail@gmail.com
       - mail.example@protonmail.com
     build: 
-    type: webhook
-    method: POST
-    url: http://localhost:8080
+      type: webhook
+      method: POST
+      url: http://localhost:8080
     dependsOn:
       - 2:master
   
