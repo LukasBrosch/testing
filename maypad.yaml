@@ -13,9 +13,9 @@ branches:
       - example.mail@gmail.com
       - mail.example@protonmail.com
     build:
-      type: webhook
-      method: POST
-      url: https://gitlab-ext.iosb.fraunhofer.de/api/v4/projects/859/ref/master/trigger/pipeline?token=7910c2d7acc27b5507debaa2486c18
+    type: webhook
+    method: POST
+    url: https://gitlab-ext.iosb.fraunhofer.de/api/v4/projects/859/ref/master/trigger/pipeline?token=7910c2d7acc27b5507debaa2486c18
     deployment:
       type: webhook
       name: Prod-Umgebung
